@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LocalStorage CRUD</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>LocalStorage CRUD App</h1>
+      <form id="data-form" class="form">
+        <input type="text" id="title" placeholder="Title" required />
+        <textarea
+          id="description"
+          placeholder="Description"
+          required
+        ></textarea>
+        <input type="date" id="date" required />
+        <button type="submit">Add</button>
+      </form>
+
+      <div id="data-list"></div>
+    </div>
+
+    <script src="connect.js"></script>
+  </body>
+</html>
